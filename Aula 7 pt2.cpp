@@ -13,27 +13,27 @@ for (i = 0; i<10; i++){// o ++ ou -- faz aumentar ou diminuir de 1 em 1 unidade;
 }
 
 n++;
-printf("\nAcabou a repetição, agora é o último n:\n");
+printf("\nAcabou a repetiÃ§Ã£o, agora Ã© o Ãºltimo n:\n");
 printf("n = %d\n", n);*/
 
 /*
 int i; 
 for (i= 0; i<50; i++){
-printf("TravaZAP\n"); // imprime a frase 50 vezes;
+printf("REPETIÃ‡ÃƒO\n"); // imprime a frase 50 vezes;
 } */
 
 /*int ni, nf, i;
-printf("Digite o número inicial: ");
+printf("Digite o nÃºmero inicial: ");
 scanf("%d", &ni);
-printf("Agora digite o número final: ");
+printf("Agora digite o nÃºmero final: ");
 scanf("%d", &nf);
-// estamos aqui deixando o usuário decidir os parâmetros;
+// estamos aqui deixando o usuÃ¡rio decidir os parÃ¢metros;
 for (i=ni; i<nf; i++){
 	printf("\n%d\n", i);
 }*/
 
 /*int i, num, result;
-printf("Bem vindo à tabuada do 1 ao 10\nDigite o número que quer saber a tabuada: ");
+printf("Bem vindo Ã  tabuada do 1 ao 10\nDigite o nÃºmero que quer saber a tabuada: ");
 scanf("%d", &num);
 
 for (i= 1; i<11; i++){
@@ -45,18 +45,18 @@ for (i= 1; i<11; i++){
 for (i=1; i<=10; i++){
 	soma +=  i;
 }
-printf("soma dos números de 1 a 10 é: %d\n", soma);*/
+printf("soma dos nÃºmeros de 1 a 10 Ã©: %d\n", soma);*/
 /*int i, soma = 0;
 for (i=6; i<=19; i++){
 	soma +=  i;
-printf("soma dos números de 6 a %d é: %d\n", i, soma);
+printf("soma dos nÃºmeros de 6 a %d Ã©: %d\n", i, soma);
 }*/
 
 /*int i, soma = 0;
 for (i=50; i<=200; i++){
 	if(i%4==0){
 	soma +=  i;
-printf("soma dos números múltiplos de 4 entre 50 e %d é: %d\n", i, soma);
+printf("soma dos nÃºmeros mÃºltiplos de 4 entre 50 e %d Ã©: %d\n", i, soma);
 }
 }*/
 
@@ -69,11 +69,11 @@ scanf("%d", &y);
 if(x>=y){
 for (i= y; i<=x; i++){
 	soma = soma+i;
-	printf("\nSoma de %d a %d é: %d\n", y, i, soma);
+	printf("\nSoma de %d a %d Ã©: %d\n", y, i, soma);
 }}else{
 	for (i= x; i<=y; i++){
 	soma = soma+i;
-	printf("\nSoma de %d a %d é: %d\n", x, i, soma);
+	printf("\nSoma de %d a %d Ã©: %d\n", x, i, soma);
 
 
 }
